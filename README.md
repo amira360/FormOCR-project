@@ -16,7 +16,7 @@ In order to install the application in your machine, you must follow the instruc
 5- move the 'FormOCR' folder under "/apache/" to "/www/html/" of Apache2 for frontend execution<br>
 6- access "discovery-service/target/" folder and open the terminal on this fomder and run "nohup java -jar discovery-service.jar &" <br>
 7- install jetty server version 9.4 (use port 8080) <br>
-8- move files of the folder 'tomcat' to the "webapps" folder under Tomcat for execution<br>
+8- move files of the folder 'jetty' to the "webapps" folder under Jetty server for execution<br>
 
  
 
