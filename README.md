@@ -14,8 +14,10 @@ In order to install the application in your machine, you must follow the instruc
 3- install Postgresql<br>
 4- download the project and extract it under Apache Tomcat folder <br>
 5- move the 'FormOCR' folder under "/apache/" to "/www/html/" of Apache2 for frontend execution<br>
-6- move files of the folder 'tomcat' to the "webapps" folder under Tomcat for execution<br>
-7- run  "sudo su; su tomcat" and then "pip3 install matplotlib doctr python-doctr"
+6- access "discovery-service/target/" folder and open the terminal on this fomder and run "nohup java -jar discovery-service.jar &" <br>
+7- install jetty server version 9.4 (use port 8080)
+8- move files of the folder 'tomcat' to the "webapps" folder under Tomcat for execution<br>
+
  
 
 
@@ -52,7 +54,3 @@ You can execute the workflow by selecting intances of a workflow and then select
 start the process by selectiing the template and uploading the form that corresponds to that template. At that time the FormOCR method will process the image and extract the answer of each question. Once it complete the processing you will receive a notification.
 once you open the notification you can see the form filled from the image.
 
-
-    
-
-## Citations
